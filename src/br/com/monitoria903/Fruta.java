@@ -2,11 +2,12 @@ package br.com.monitoria903;
 
 public class Fruta {
 
-    // atributo privado, favorece o emcapsulamento
+    // atributo privado, favorece o encapsulamento
     private String cor;
     private String tipo;
     private int quantidade;
 
+    // atributo estatico, existirá somente um valor, compartilhado entre todos os objetos que forem gerados a partir dessa classe
     private static int count;
 
     // set serve para setar valores
